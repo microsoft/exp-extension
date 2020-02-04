@@ -1,6 +1,7 @@
 import * as tl from 'azure-pipelines-task-lib';
 import * as path from 'path';
 import ExperimentManager, { ExperimentAction } from './experimentmanager';
+import { ExpAuthorizer } from './expauthorizer';
 
 async function run() {
     try {
@@ -39,6 +40,9 @@ async function run() {
     }
     catch (error) {
         tl.setResult(tl.TaskResult.Failed, error);
+    }
+    finally {
+        ExpAuthorizer.Clean();
     }
 }
 

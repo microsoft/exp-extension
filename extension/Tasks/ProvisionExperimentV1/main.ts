@@ -1,6 +1,7 @@
 import * as tl from 'azure-pipelines-task-lib';
 import * as path from 'path';
 import * as fs from 'fs';
+import { ExpAuthorizer } from './expauthorizer';
 import FeatureManager from './featuremanager';
 
 async function run() {
@@ -29,6 +30,9 @@ async function run() {
     }
     catch (error) {
         tl.setResult(tl.TaskResult.Failed, error);
+    }
+    finally {
+        ExpAuthorizer.Clean();
     }
 }
 

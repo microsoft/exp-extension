@@ -2,12 +2,12 @@
     "manifestVersion": "1",
     "id": "azureexp",
     "name": "Azure Exp",
-    "version": "2.0.0",
-    "publisher": "ms-vscs-rm",
+    "version": "1.0.0",
+    "publisher": "ms-exp",
     "description": "Azure Exp feature rollout",
     "public": false,
     "categories": [
-        "Build and release"
+        "Azure Pipelines"
     ],
     "files": [
         {

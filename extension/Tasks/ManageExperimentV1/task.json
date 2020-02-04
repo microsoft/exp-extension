@@ -7,11 +7,10 @@
     "helpMarkDown": "[More Information](Get Link here)",
     "category": "Deploy",
     "visibility": [
-        "Build",
         "Release"
     ],
     "version": {
-        "Major": 2,
+        "Major": 1,
         "Minor": 0,
         "Patch": 0
     },
