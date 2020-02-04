@@ -39,7 +39,7 @@
             "type": "string",
             "label": "Feature Id",
             "required": true,
-			"visibleRule": "Action = CreateProgression",
+            "visibleRule": "Action = CreateProgression",
             "helpMarkDown": "Feature Id of the feature in which the progression will be created"
         },
 	    {

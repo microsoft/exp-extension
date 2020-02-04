@@ -17,8 +17,8 @@
             "path": "Tasks/ManageExperimentV1"
         },
         {
-			"path": "UIContribution/dist",
-			"addressable": true
+            "path": "UIContribution/dist",
+            "addressable": true
         }
     ],
     "targets": [
@@ -89,12 +89,12 @@
 				"ms.vss-releaseManagement-web.release-environment-editor-tab"
 			],
 			"properties": {
-				"name": "Experimentation Overview",
-				"description": "Shows the experiment overview",
-				"uri": "UIContribution/dist/index.html",
+                "name": "Experimentation Overview",
+                "description": "Shows the experiment overview",
+                "uri": "UIContribution/dist/index.html",
                 "registeredObjectId": "registeredEnvironmentObject",
                 "order": "9999",
-				"dynamic": true
+                "dynamic": true
 			}
         }
     ],
