@@ -4,7 +4,7 @@
     "friendlyName": "Provision Experiment",
     "description": "Provision Experiments in Control Tower",
     "author": "Microsoft Corporation",
-    "helpMarkDown": "[More Information](https://github.com/microsoft/exp-extension/tree/master/extension/Tasks/ProvisionExperimentV1)",
+    "helpMarkDown": "[More Information](https://github.com/microsoft/exp-extension/blob/master/extension/Tasks/ProvisionExperimentV1/README.md)",
     "category": "Deploy",
     "visibility": [
         "Release"
