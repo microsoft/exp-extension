@@ -13,9 +13,9 @@ Please report a problem in the repo's [issues](https://github.com/microsoft/exp-
 ## Pre-requisites for the task
 
 ### Create an Exp Service Connection:
-Create an Azure Active Directory Application from the Azure portal and delegate API permissions to Control Tower Website. Go to the Control Tower Website and add (if not already present) the Application Id as the owner of the Feature Rollout in which your experiments reside. 
+Create an Azure Active Directory Application from the Azure portal and delegate API permissions to Control Tower Website. 
 
-Create an Exp Service Connection in Azure DevOps. Provide the Application Id and Application Client Secret in the Exp Service Connection panel. This service connection will be used to manage the experiments.
+Create an Exp Service Connection in Azure DevOps. Provide the Application Id and Application Client Secret in the Exp Service Connection panel. This service connection will be used to create the feature rollout and progression. The Azure Active Directory Application will be added as an Owner of the created Feature Rollout.
 
 ## Parameters of the Task
 
