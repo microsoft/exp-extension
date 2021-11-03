@@ -46,7 +46,7 @@
     "shelljs": "^0.3.0",
     "sync-request": "3.0.1",
     "typescript": "2.8.4",
-    "validator": "3.33.0",
+    "validator": "13.7.0",
     "babel-core": "6.4.5",
     "babel-loader": "^6.3.2",
     "babel-plugin-transform-runtime": "6.23.0",
